@@ -1,0 +1,218 @@
+body{
+    background: #eef7f1;
+}
+
+.card{
+    border-radius:20px;
+}
+
+.card-header{
+    background:linear-gradient(135deg,#198754,#43a047)!important;
+}
+
+.form-control,
+.form-select{
+    border-radius:10px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#198754;
+    box-shadow:0 0 8px rgba(25,135,84,.25);
+}
+
+textarea{
+    resize:none;
+}
+
+.btn-success{
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-success:hover{
+    transform:translateY(-2px);
+}
+/* Page Background */
+body {
+  background: linear-gradient(135deg, #f4f7fb, #e8f0ff);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Page Title */
+.page-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0d6efd;
+  position: relative;
+}
+
+.page-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #0d6efd;
+  display: block;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+
+/* Volunteer Card */
+.team-box {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  height: 100%;
+  border: none;
+}
+
+.team-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+}
+
+/* Card Header */
+.team-top {
+  background: linear-gradient(135deg, #0d6efd, #4f8cff);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.team-top h5 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.team-top span {
+  display: inline-block;
+  margin-top: 8px;
+  background: rgba(255,255,255,0.2);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Card Body */
+.team-info {
+  padding: 22px;
+}
+
+.team-info p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 5px 14px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  transition: 0.3s;
+  font-size: 0.95rem;
+}
+
+.team-info p:hover {
+  background: #e9f2ff;
+}
+
+.team-info strong {
+  color: #0d6efd;
+  font-weight: 600;
+  min-width: 140px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  .page-title {
+    font-size: 1.8rem;
+  }
+
+  .team-top h5 {
+    font-size: 1.2rem;
+  }
+
+  .team-info p {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .team-info strong {
+    min-width: auto;
+  }
+
+}
+.navbar {
+    background: linear-gradient(90deg, #1f2937, #111827);
+}
+
+.navbar-brand {
+    color: #ffc107 !important;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    transform: translateY(-2px);
+}
+
+.btn-warning {
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+.custom-navbar{
+    background: linear-gradient(90deg,#006400,#228B22);
+    padding: 12px 0;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.navbar-nav{
+    gap: 20px;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 18px !important;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    background: white;
+    color: #006400 !important;
+    transform: translateY(-2px);
+}
+
+.navbar-toggler{
+    border: 2px solid white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.badge{
+    font-weight: 600;
+}

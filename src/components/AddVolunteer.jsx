@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
+import NavigationBar from "./NavigationBar";
 
 const AddVolunteer = () => {
 
@@ -42,6 +43,8 @@ const AddVolunteer = () => {
   };
 
   return (
+    <div>
+    <NavigationBar/>
     <div className="container py-5">
 
       <div className="text-center mb-5">
@@ -358,7 +361,9 @@ const AddVolunteer = () => {
       </div>
 
     </div>
+    </div>
   );
 };
+
 
 export default AddVolunteer;

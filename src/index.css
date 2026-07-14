@@ -1,0 +1,36 @@
+body{
+    background: #eef7f1;
+}
+
+.card{
+    border-radius:20px;
+}
+
+.card-header{
+    background:linear-gradient(135deg,#198754,#43a047)!important;
+}
+
+.form-control,
+.form-select{
+    border-radius:10px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#198754;
+    box-shadow:0 0 8px rgba(25,135,84,.25);
+}
+
+textarea{
+    resize:none;
+}
+
+.btn-success{
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-success:hover{
+    transform:translateY(-2px);
+}
